@@ -1,22 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mama Ji ERP Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      width: 200px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    .card:hover {
+      background: #e3f2fd;
+      transform: scale(1.03);
+    }
+  </style>
 </head>
 <body>
   <header>Mama Ji ERP – Dashboard</header>
   <div class="container">
     <div class="card" onclick="location.href='inventory.html'">Inventory Management</div>
     <div class="card" onclick="location.href='billing.html'">Billing Panel</div>
-    <div class="card" onclick="location.href='purchase.html'">Purchase Entry</div>
-    <div class="card" onclick="location.href='reports.html'">Reports</div>
-    <div class="card" onclick="location.href='whatsapp.html'">SMS / WhatsApp</div>
-    <div class="card" onclick="location.href='printer.html'">Bluetooth Printer</div>
-    <div class="card" onclick="location.href='roles.html'">User Roles</div>
+    <div class="card" onclick="alert('Purchase Entry')">Purchase Entry</div>
+    <div class="card" onclick="alert('Reports')">Reports</div>
+    <div class="card" onclick="alert('SMS / WhatsApp')">SMS / WhatsApp</div>
+    <div class="card" onclick="alert('Bluetooth Printer')">Bluetooth Printer</div>
+    <div class="card" onclick="alert('User Roles')">User Roles</div>
   </div>
 </body>
 </html>
