@@ -1,2 +1,2 @@
 Department,Category,Brand,Item Code,Product Name,Print Name,Unit 1,Unit 2,Unit 3,MRP,Retail Rate,Wholesale Rate,Size,Scale Code,Stock Limit
-Grocery,Atta,Tata,001,Tata Atta,TATA आटा,Kg,Bag,Packet,400,380,360,50kg,SC001,20
+Grocery,Flour,Local,101,Maida,मैदा,kg,g,pouch,50,48,46,50kg,SC101,20
