@@ -1,0 +1,4 @@
+Department,Category,Brand,Item Code,Product Name,Print Name,Unit 1,Unit 2,Unit 3,Retail Rate,Wholesale Rate,MRP,Size,Electric Scale Code,Stock Limit
+Grocery,Flour,Aashirvaad,A001,Wheat Flour,गेहूं आटा,kg,gram,bag,48,45,50,1kg,SC001,100
+Grocery,Oil,Fortune,A002,Sunflower Oil,तेल,liter,ml,bottle,120,115,125,1L,SC002,50
+Dairy,Milk,Amul,A003,Full Cream Milk,दूध,liter,ml,pack,60,58,62,1L,SC003,200
