@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Printer Module</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h2 { color: #333; }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Bluetooth Thermal Printer</h2>
+  <p>Connect your Bluetooth printer and click below to print test bill.</p>
+  <button onclick="printTest()">Print Test Bill</button>
+
+  <script>
+    function printTest() {
+      alert("Sending test bill to printer (Demo Functionality)");
+      // Integration with actual Bluetooth printer will be done in production version
+    }
+  </script>
+</body>
+</html>
