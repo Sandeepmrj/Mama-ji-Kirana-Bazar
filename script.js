@@ -1,1 +1,1 @@
-console.log('Mama Ji ERP Full Setup Loaded');
+console.log('Mama Ji ERP loaded');
